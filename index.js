@@ -8,6 +8,10 @@ const { checkOccurence } = require('./easy/test-3')
 const { countVoyelNumber } =require('./easy/test-4')
 // countVoyelNumber("JavaScript program")
 const { sumOfOddInt } = require('./easy/test-5')
-sumOfOddInt(5) 
+// sumOfOddInt(6) 
+const { FirstFitRoom } = require('./easy/test-6')
+let rooms = [15, 10, 30, 50, 25]
+let target = 20
+FirstFitRoom(rooms, target)
 
 console.log("Start the test")
