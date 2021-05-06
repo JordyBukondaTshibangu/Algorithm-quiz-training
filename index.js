@@ -10,8 +10,12 @@ const { countVoyelNumber } =require('./easy/test-4')
 const { sumOfOddInt } = require('./easy/test-5')
 // sumOfOddInt(6) 
 const { FirstFitRoom } = require('./easy/test-6')
-let rooms = [15, 10, 30, 50, 25]
-let target = 20
-FirstFitRoom(rooms, target)
+// let rooms = [15, 10, 30, 50, 25]
+// let target = 20
+// FirstFitRoom(rooms, target)
+const { noisyPalindrome } = require('./easy/test-7')
+// noisyPalindrome("abZ")
+const { collatzSequence } = require('./easy/test-8')
+collatzSequence(11)
 
 console.log("Start the test")
