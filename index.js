@@ -18,6 +18,9 @@ const { noisyPalindrome } = require('./easy/test-7')
 const { collatzSequence } = require('./easy/test-8')
 // collatzSequence(11)
 const { FizzBuzz } = require('./easy/test-9')
-FizzBuzz(15)
+// FizzBuzz(15)
+const { largestGap } = require('./easy/test-10')
+const numbers = [4, 1, 2, 8, 9, 10]
+largestGap(numbers)
 
 console.log("Start the test")
